@@ -3,43 +3,113 @@ body {
 }
 
 #loupe {
+	width: auto;
+	height: auto;
+}
+
+#cross{
+	width: 30px;
+	height: 30px;
+}
+
+#reload {
+	width: 30px;
+	height: 30px;
+}
+
+#loupe_side {
 	float: right;
 }
-nav {
+
+#doft {
+	flex: 1;
+}
+
+#top {
+	display: flex;
 	box-shadow:8px 8px 12px #010101;
 	padding: 60px;
-	margin-right: 240px;
-	margin-left: 240px;
+	width: 80%;
+	margin: auto;
+	height: 7.5%;
 	background-color: #909090;
 	border-radius: 25px;
 }
 
-#arrow {width: 60px;height: 70px;}
+#oeil {
+	border: 10px solid red;
+	border-radius: 10px;
+}
 
-#main {width: 60px;height: 70px;}
+#bigwall {
+	height: 10.5%;
+	width: 47.5%;
+	background-image: url("resources/brick.jpg");
+	margin-left: 25%;
+}
+.wall {
+	width: 12.5%;
+	margin: -2px;
+}
 
-#oeil {width: 60px;height: 70px;}
+#lastwall {
+	margin-left: -6px;
+}
 
-#outil {width: 60px;height: 70px;}
+.sideimg {
+	width: 40%;
+	margin-left: 25%;
+	}
 
-#chat {width: 60px;height: 70px;}
-
-#cluster {width: 1000px;height: 560px;}
+#cluster {
+		width: 95%;
+		height: 95%;
+	}
 
 #left {
 	border-radius: 25px;
 	box-shadow: 8px 8px 12px #010101;
 	background-color: #909090;
-	margin-right: 240px;
 	margin-left: 270px;
 	margin-top: 20px;
-	float: left;
-	padding: 50px;
+	height: 40%;
+	width: 7.5%;
 }
 
-#center {
+#right {
+	border-radius: 25px;
+	box-shadow: 8px 8px 12px #010101;
+	background-color: #909090;
+	margin-right: 270px;
+	margin-top: 20px;
+	height: 40%;
+	width: 7.5%;
+}
+
+/*#right {
+	border-radius: 25px;
+	box-shadow: 8px 8px 12px #010101;
+	background-color: #909090;
+	margin; auto;
+	float: right;
+	height: 50%;
+	width: 10%;
+}
+*/
+#big_center {
+	width: 90%;
+	margin: auto;
+	display: flex;
+}
+
+#centre {
 	background-color: #909090;
 	border-radius: 25px;
 	box-shadow: 8px 8px 12px #010101;
+	margin-right: auto;
+	margin-left: auto;
 	margin-top: 20px;
+	padding: 20px;
+	width: 50%;
+	height: 60%;
 }
